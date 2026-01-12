@@ -1,7 +1,23 @@
 {
   "permissions": {
     "allow": [
-      "Bash(attrib:*)"
+      "Bash(attrib:*)",
+      "WebSearch",
+      "Bash(uv --version:*)",
+      "Bash(claude mcp add:*)",
+      "Bash(claude mcp list:*)",
+      "WebFetch(domain:oraios.github.io)",
+      "mcp__serena__activate_project",
+      "mcp__serena__list_dir",
+      "mcp__serena__get_symbols_overview",
+      "mcp__serena__find_symbol",
+      "mcp__serena__check_onboarding_performed",
+      "mcp__serena__search_for_pattern",
+      "Bash(python:*)",
+      "Bash(if not exist \"D:\\\\dasam\\\\stockwin\\\\code\\\\stockwinBillkey\\\\claudedocs\" mkdir \"D:\\\\dasam\\\\stockwin\\\\code\\\\stockwinBillkey\\\\claudedocs\")",
+      "Bash(pip install:*)",
+      "Bash(ls:*)",
+      "Bash(dir D:dasamstockwincodestockwinBillkeytmpclaude-*)"
     ]
   }
 }

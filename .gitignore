@@ -27,3 +27,6 @@ nul
 # Backup files
 *.bak
 *.orig
+
+# Claude Code temp files
+tmpclaude-*
